@@ -1,6 +1,5 @@
 package ru.netology.graphics;
 
-import ru.netology.graphics.image.ColorScheme;
 import ru.netology.graphics.image.PhotoConverter;
 import ru.netology.graphics.image.TextGraphicsConverter;
 import ru.netology.graphics.server.GServer;
@@ -15,9 +14,9 @@ public class Main {
         GServer server = new GServer(converter); // Создаём объект сервера
         server.start(); // Запускаем
 
-//        Или то же, но с выводом на экран:
-//        String url = "https://raw.githubusercontent.com/netology-code/java-diplom/main/pics/simple-test.png";
-//        String imgTxt = converter.convert(url);
-//        System.out.println(imgTxt);
+        // Или то же, но с выводом на экран:
+        //String url = "https://raw.githubusercontent.com/netology-code/java-diplom/main/pics/simple-test.png";
+        //String imgTxt = converter.convert(url);
+        //System.out.println(imgTxt);
     }
 }
